@@ -1,0 +1,25 @@
+
+---
+
+## Project Overview
+
+This project explores the Glocal Kernel (a combination of Global and Local kernel learning) to improve rating prediction in recommender systems. The original paper is reproduced using the MovieLens 100K dataset, and additional contributions are made using the larger and denser MovieLens 1M dataset.
+
+---
+
+## Objectives
+
+-  Reproduce the results from the original Glocal Kernel paper.
+-  Experiment with the MovieLens 1M dataset.
+-  Tune hyperparameters to improve RMSE, MAE, and NDCG scores.
+-  Compare performance before and after fine-tuning.
+
+---
+
+## Requirements
+
+Make sure you have **Anaconda** or **Miniconda** installed. Then, create the environment with:
+
+```bash
+conda env create -f environment.yml
+conda activate glocal-kernel-env
