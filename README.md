@@ -1,18 +1,8 @@
-# MovieLens Recommender System with Global & Local Kernels
+# Global and Local Kernels Recommender Systems Project
 
-This project reproduces the deep learning architecture proposed in the paper **"Global and Local Kernels for Recommender Systems"** using the MovieLens 1M dataset.
+This repository contains the full reproducibility and contribution code for the project based on the paper **"Global and Local Kernels for Recommender Systems"**. The project focuses on using deep learning methodologies to perform matrix completion in recommender systems. The code is divided into two distinct folders:
 
-##  Project Structure
-- `src/`: Contains all core Python scripts.
-- `data/`: Folder to place `train_dataset.dat` and `test_dataset.dat`.
-- `results/`: Stores final metrics and logs.
-- `notebook/`: Demo collab notebook.
+- **Original Glocal_K**: Contains the original implementation using the MovieLens 100K dataset.
+- **Contribution code**: Contains the extended code that applies the approach to the MovieLens 1M dataset along with additional contributions.
 
-##  Model Overview
-A deep autoencoder is enhanced with:
-- **Global Kernel**: Holistic pattern extraction
-- **Local Kernel**: Personalized similarity structure
-
-##  Requirements
-```bash
-pip install -r requirements.txt
+---
