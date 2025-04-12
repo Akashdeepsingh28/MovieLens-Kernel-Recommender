@@ -6,3 +6,7 @@ This repository contains the full reproducibility and contribution code for the 
 - **Contribution code**: Contains the extended code that applies the approach to the MovieLens 1M dataset along with additional contributions.
 
 ---
+
+##  Repository Structure
+
+├── Original Glocal_K/ │ ├── data/ │ │ └── movielens_100k/ │ │ ├── movielens_100k_u1.base │ │ └── movielens_100k_u1.test │ └── Glocal_K.ipynb │ ├── Contribution code/ │ ├── MovieLens_1M/ │ │ └── data/ │ │ ├── train_dataset.dat │ │ └── test_dataset.dat │ └── contribution_code.ipynb │ ├── README.md └── environment.yml
